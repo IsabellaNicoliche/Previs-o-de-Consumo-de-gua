@@ -1,0 +1,22 @@
+</head>
+<body>
+
+    <div class="container">
+        <h1>💧 Previsão de Consumo de Água</h1>
+
+        <p>
+            Digite a temperatura (°C) para prever o consumo médio de água.
+            Quanto maior a temperatura, maior tende a ser o consumo.
+        </p>
+
+        <input type="number" id="temperatura" placeholder="Ex: 30">
+        <button onclick="treinarEPrever()">Prever Consumo</button>
+
+        <h3 id="status">Status: Aguardando...</h3>
+        <h2 id="resultado"></h2>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+<script src="script.js"></script>
+</body>
+</html>
